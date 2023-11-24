@@ -54,14 +54,14 @@ body {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: var(--roundness);
-  background-color: var(--accent2); 
+  background-color: var(--bg); 
   color: var(--button-text); 
   border: 3px solid var(--accent);
   text-decoration: none;
 }
 .button:hover {
   background-color: var(--accent);
-  color: var(--accent2);
+  color: var(--bg);
   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -86,7 +86,7 @@ details {
   max-width: 400px;
   box-sizing: border-box;
   margin-top: 5px;
-  background: var(--accent2);
+  background: var(--bg);
   border-radius: var(--roundness);
   border: 3px solid var(--accent);
   outline: none;
